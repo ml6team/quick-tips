@@ -32,14 +32,16 @@ def load_data(filepath):
 
 def main(file_paths: str):
     files = [p.strip() for p in file_paths.split(",")]
-    st.sidebar.title("Data visualizer")
-    st.sidebar.markdown(
-        "Visualize the annotations using [displaCy](https://spacy.io/usage/visualizers) "
-        "and view stats about the datasets. Showing only the first {} docs "
-    )
+
     data_file = st.sidebar.selectbox("Dataset", files)
     docs, labels, n_total_ents, n_no_ents = load_data(data_file)
     n_docs = st.sidebar.slider("# Docs ro visualize", 10, len(docs))
+
+    st.sidebar.title("Data visualizer")
+    st.sidebar.markdown(
+        "Visualize the annotations using [displaCy](https://spacy.io/usage/visualizers) "
+        f"and view stats about the datasets. Showing only the first {n_docs} docs "
+    )
 
     st.header(f"{data_file} ({len(docs)})")
     wrapper = "<div style='border-bottom: 1px solid #ccc; padding: 20px 0'>{}</div>"
