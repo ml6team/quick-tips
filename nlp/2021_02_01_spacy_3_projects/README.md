@@ -37,7 +37,7 @@ The following part of the readme explains what commands are available in the spa
 
 <!-- SPACY PROJECT: AUTO-GENERATED DOCS START (do not remove) -->
 
-# 🪐 spaCy Project: German Named Entitity Recognition
+# spaCy Project: German Named Entitity Recognition
 
 This project uses data from the germeval and wikiner datasets to train a German NER model.
 
