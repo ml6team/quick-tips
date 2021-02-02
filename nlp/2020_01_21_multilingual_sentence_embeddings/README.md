@@ -6,4 +6,4 @@ Transformers have provided us a way to do this in a contextualized manner and on
 
 We recommend to open the notebook using Colab, to check how you can leverage multilingual USE and - SentenceBert to encode a piece of non-English text 👇:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ml6team/quick-tips/blob/nlp/tip_1_multilingual_sentence_embedders/nlp/multilingual_sentence_embeddings/multilingual_sentence_embeddings.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ml6team/quick-tips/blob/main/nlp/multilingual_sentence_embeddings/multilingual_sentence_embeddings.ipynb)
