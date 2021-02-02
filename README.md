@@ -1,4 +1,4 @@
-# quick-tips
+# ML6 Quick Tips 💡
 
 This repository contains a collection of handy tips and tricks from the ML6 Team.
 
