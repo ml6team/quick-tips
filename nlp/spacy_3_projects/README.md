@@ -6,7 +6,9 @@ In this tip, which is more geared towards production usage, we're going to do sh
 1. **transformer-based pipelines:** which allows you to, next to the already available components in the pipeline, integrate a (huggingface) pre-trained transformer.
 2. **wrapping pipelines in a spaCy project:** one of the great new features to streamline your end-to-end workflows. It handles everything from start to finish: downloading and processing your datafiles, training, evaluation and visualizing your trained models and packaging your best model for future use.
 
-If you're new to Spacy or NER training using Spacy, we definitely recommend having a look at the Spacy docs, or checking out this awesome [Intro to NLP video](https://www.youtube.com/watch?v=IqOJU1-_Fi0) on the Explosion youtube channel. 
+## ☝️ Before getting started
+
+Before we dive in, first a quick word on the target audience. We assume that you already have a basic understanding of how spaCy works. If you're just getting started, have a look at the [spaCy 101](https://spacy.io/usage/spacy-101) to brush up on some NLP basics and the way spaCy is structured.
 
 ## 🏋️ Training a German NER model 
 Since the pre-trained German transformer pipeline does not contain a NER component anymore, we've created a spaCy project that can be used to train a German NER model on a combination of 2 datasets (germeval and wikiner).  
