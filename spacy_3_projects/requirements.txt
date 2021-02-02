@@ -1,0 +1,7 @@
+# If using GPUs, make sure to add the correct extra dependency
+# according to your cuda version. See: https://spacy.io/usage#gpu
+spacy[transformers]==3.0.0
+streamlit==0.75.0
+# This is a pre-release since at the time of writing
+# no official release was available yet for spacy 3
+spacy_streamlit==v1.0.0rc1
