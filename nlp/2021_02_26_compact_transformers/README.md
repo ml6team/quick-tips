@@ -1,6 +1,6 @@
 # Compact Transformers
 
-We all know bigger is often better! Nothing cooler than rolling up in your larger-than-life Transformer model, who doesn't want to drive a monster truck once in their life...
+We all know bigger is often better! Nothing cooler than rolling up in your larger-than-life Transformer model. Who doesn't want to drive a monster truck once in their life...
 
 However, monster truck aren't always practical in real life. Models need to run smoothly in production. So the best model size is often the one most suited for your practical situation and requirements.
 
