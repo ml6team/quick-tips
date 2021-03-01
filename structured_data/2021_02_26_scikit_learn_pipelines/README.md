@@ -6,4 +6,4 @@ Scikit-learn has the solution to these problems! In this notebook we will show y
 
 Open the notebook in Colab to learn how apply these best practices on the famous titanic dataset:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ml6team/quick-tips/blob/main/structured_data/2021_02_26_scikit_learn_pipelines/scikit_learn_pipelines_and_lightbm_titanic_dataset.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ml6team/quick-tips/blob/main/structured_data/2021_02_26_scikit_learn_pipelines/scikit_learn_pipelines_and_lightgbm_titanic_dataset.ipynb)
