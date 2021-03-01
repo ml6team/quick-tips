@@ -1,6 +1,6 @@
 # Tabular data: Scikit-learn Pipelines and LightGBM
 
-When working on a data science problem you are faced with multiple challenges. How to preprocess my data in a structured way? How to avoid dataset leakage? How to efficiently do hyper parameter tuning?
+When working on a data science problem you are faced with multiple challenges. How do you preprocess your data in a structured way? How to avoid dataset leakage? How to efficiently do hyper parameter tuning?
 
 Scikit-learn has the solution to these problems! In this notebook we will show you how to approach a tabular data project using scikit-learn pipelines and how it integrates with a SOTA model like LightGBM.
 
