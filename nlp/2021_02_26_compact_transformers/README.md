@@ -2,7 +2,7 @@
 
 We all know bigger is often better! Nothing cooler than rolling up in your larger-than-life Transformer model. Who doesn't want to drive a monster truck once in their life...
 
-However, monster truck aren't always practical in real life. Models need to run smoothly in production. So the best model size is often the one most suited for your practical situation and requirements.
+However, monster trucks aren't always practical in real life. Models need to run smoothly in production. So the best model size is often the one most suited for your practical situation and requirements.
 
 In this tip, we'll have a look at some sub-25million parameter transformer models available in Huggingface. So you can have both a smoothly running application and still brag to your manager that you implemented transformers!
 
