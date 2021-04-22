@@ -17,3 +17,7 @@ between computational resources and model accuracy.
 -  [_Keyword Extraction with pke_ (18/03/2021)](2021_03_18_pke_keyword_extraction):
 The KEYNG (read *king*) is dead, long live the KEYNG!
 In this tip we look at `pke`, an alternative to Gensim for keyword extraction.
+
+-  [_Explainable transformers using SHAP_ (22/04/2021)](2021_04_22_shap_for_huggingface_transformers):
+BERT, explain yourself! 📖
+Up until recently language model predictions have lacked transparency. In this tip we look at `SHAP`, a way to explain your latest transformer based models.
