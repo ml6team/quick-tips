@@ -7,4 +7,4 @@ Additionally, while it is not as fast as the almost instantaneous Fourier transf
 
 Open the notebook in Colab to learn how to use this method in CPU and GPU environment and to witness how it compares to our current way of working:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ml6team/quick-tips/blob/main/structured_data/2021_05_19_minirocket_timeseries_classification/minirocket_timeseries_classification.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ml6team/quick-tips/blob/main/structured_data/2021_06_04_minirocket_timeseries_classification/minirocket_timeseries_classification.ipynb)
