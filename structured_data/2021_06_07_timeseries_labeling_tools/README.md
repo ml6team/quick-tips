@@ -271,7 +271,7 @@ Not sure if still alive...
 ## Other tools, possibly interesting
 
 ### hastic
-Hastic ([https://hastic.io/](https://hastic.io/) is tool that that allows for easy pattern and anomaly detection.
+Hastic ([https://hastic.io/](https://hastic.io/) is a tool that allows for easy pattern and anomaly detection.
 There are two parts: hastic server and a hastic grafana app.
 
 So in a sense, this is also a labeling tool, albeit an automated one.
