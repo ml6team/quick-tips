@@ -1,6 +1,6 @@
 # Time series labeling tools
 ## Goal
-This document tries to give an overview of tools that can be used for data labelling, specifically for time series.
+This document tries to give an overview of tools that can be used for data labeling, specifically for time series.
 This document was written in June 2021.
 
 Things that were looked at are:
@@ -50,11 +50,11 @@ If this would be too limiting, a PostgreSQL database can be used as well (https:
 In Label Studio users and projects can be created. 
 Within these projects different *label tasks* can be created. 
 Label tasks are time series segments that need to be labeled.
-Once the operator is happy with the labelling, it can be submitted.
+Once the operator is happy with the labeling, it can be submitted.
 
 #### Import
 To import data, a data template template needs to be made. 
-This template is basically the configuration of how the data looks like (which columns are important), but also how the data can be viewed during labelling.
+This template is basically the configuration of how the data looks like (which columns are important), but also how the data can be viewed during labeling.
 This allows for a very flexible import system.
 More info on these data templates: [https://labelstud.io/templates/time_series.html](https://labelstud.io/templates/time_series.html)
 
@@ -129,7 +129,7 @@ BigQuery is supported using one of the plugins.
 As Grafana is build as a dashboard tool, it is very flexible in making very different plots, combining different parameters.
 
 #### Export
-This is one of the less attractive points of Grafana for labelling.
+This is one of the less attractive points of Grafana for labeling.
 The annotation data is stored in a Grafana database, which can be queried using the API: [https://grafana.com/docs/grafana/latest/http_api/annotations/](https://grafana.com/docs/grafana/latest/http_api/annotations/).
 
 On the other hand annotations can be imported from various sources, so Grafana can be interesting to visualize annotation.
@@ -157,7 +157,7 @@ Interesting tool, but for labeling only to be used for specific use cases.
 | GCP connector | -                        |
 
 #### Tool
-Universal Data tool is a labelling tool developed for pictures and videos labelling.
+Universal Data tool is a labeling tool developed for pictures and videos labeling.
 Time series have recently been added to the Universal Data Tool, and feels at the time of writing less mature.
 
 #### Data
@@ -274,7 +274,7 @@ Not sure if still alive...
 Hastic ([https://hastic.io/](https://hastic.io/) is tool that that allows for easy pattern and anomaly detection.
 There are two parts: hastic server and a hastic grafana app.
 
-So in a sense, this is also a labelling tool, albeit an automated one.
+So in a sense, this is also a labeling tool, albeit an automated one.
 
 As it plugs in into Grafana a lot of different data data sources can be used, e.g.
 
