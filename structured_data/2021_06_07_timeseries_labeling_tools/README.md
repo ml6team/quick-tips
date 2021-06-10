@@ -24,7 +24,7 @@ Grafana can be interesting for *live* labeling, but for all other cases Label St
 | Tech          | mainly python            |
 | Maintained    | ✔                        |
 | Multivariate  | many plotted in parallel |
-| GCP connector | Yes (unsure if it works) |
+| GCP connector | Yes (not tested yet) |
 
 #### Tool
 In general this looks very mature:
@@ -279,4 +279,3 @@ So in a sense, this is also a labelling tool, albeit an automated one.
 As it plugs in into Grafana a lot of different data data sources can be used, e.g.
 
 The tool was not tested, so unsure how good the pattern recognition is. 
-
