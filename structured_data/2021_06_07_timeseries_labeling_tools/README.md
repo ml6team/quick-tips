@@ -104,7 +104,7 @@ The tool also has a some flexibility regarding backend data storage as well as f
 > The analytics platform for all your metrics
 
 #### Tool
-Grafana is a very nice and flexible tool to build dashboard of all kinds of time series data.
+Grafana is a user-friendly and flexible tool to build dashboards on top of all kinds of time series.
 
 But it can also be used for annotation (https://grafana.com/docs/grafana/latest/dashboards/annotations/). 
 Using `CTRL + click`, a simple annotation can be added, and tagged.
