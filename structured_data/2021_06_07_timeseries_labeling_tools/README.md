@@ -162,7 +162,7 @@ Time series have recently been added to the Universal Data Tool, and feels at th
 
 #### Data
 Time series are not (yet) in the documentation of this tool.
-So the tool might be to immature as of the time of writing.
+For time series, UDT might be too immature right now.
 
 #### Import and Export
 The tool allows to import data from urls, desktop, AWS, google drive, JSON/CSV and COCO.
