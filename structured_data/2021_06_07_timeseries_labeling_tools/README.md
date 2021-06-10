@@ -276,6 +276,6 @@ There are two parts: hastic server and a hastic grafana app.
 
 So in a sense, this is also a labeling tool, albeit an automated one.
 
-As it plugs in into Grafana a lot of different data data sources can be used, e.g.
+As it plugs in into Grafana a lot of different data sources can be used, e.g. Influxdb, Mysql, Graphite,...
 
 The tool was not tested, so unsure how good the pattern recognition is. 
