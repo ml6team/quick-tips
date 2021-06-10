@@ -87,7 +87,7 @@ Online sandbox to play around.
 [https://labelstud.io/playground/](https://labelstud.io/playground/)
 
 #### Conclusion
-In general the whole interface, with users and tasks make it really interesting to work with and to organize it when having multiple users.
+In general the interface with users and tasks makes it really interesting to work with. It's rather easy to organise the labeling effort when there's multiple users involved.
 The tool also has a some flexibility regarding backend data storage as well as for importing data from different sources.
 
 [https://labelstud.io/](https://labelstud.io/)
