@@ -77,7 +77,6 @@ Some other tips:
 - Missing data: data will be set to 0 (flat line).
 - Corrupt data (e.g. strings): the data is imported correctly **until the first occurrence of a corrupt value**. Even with a single corrupt datapoint, this could mess up your whole dataset.
 
-So be a bit careful. A small anomaly might destroy the rest of the time series. Also the sparse data part is something to keep an eye on.
 
 #### Export
 Data can be exported in different ways, JSON making most sense. There is also an API, which allows to automate the export process + parsing + dumping towards e.g. GCP.
