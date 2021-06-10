@@ -75,7 +75,7 @@ Label Studio has an API that can be used to pump data in.  ([https://labelstud.i
 Some other tips:
 - Data should be sorted on time
 - Missing data: data will be set to 0 (flat line).
-- Corrupt data (e.g. strings): time series just stop at the first time point it encountered a string. So even if the data afterwards is okay. There is simply no data to been seen (empty time series plot).
+- Corrupt data (e.g. strings): the data is imported correctly **until the first occurrence of a corrupt value**. Even with a single corrupt datapoint, this could mess up your whole dataset.
 
 So be a bit careful. A small anomaly might destroy the rest of the time series. Also the sparse data part is something to keep an eye on.
 
