@@ -70,7 +70,6 @@ Data can also be imported via a GUI or [using the API](https://labelstud.io/guid
 Files up to 200Mb are supposed to work, although it started failing above 50Mb using the GUI.
 Files that are bigger suffer from a *validation error*.
 
-Label Studio has an API that can be used to pump data in.  ([https://labelstud.io/guide/tasks.html#Import-data-using-the-API](https://labelstud.io/guide/tasks.html#Import-data-using-the-API))
 
 Some other tips:
 - Data should be sorted on time
