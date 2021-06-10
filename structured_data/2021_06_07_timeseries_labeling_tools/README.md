@@ -132,7 +132,7 @@ The annotation data is stored in a Grafana database, which can be queried using 
 
 On the other hand annotations can be imported from various sources, so Grafana can be interesting to visualize annotation.
 
-There is plugin that could store the data in an influxdb. However question is how mature the plugin is ([https://grafana.com/grafana/plugins/novalabs-annotations-panel/](https://grafana.com/grafana/plugins/novalabs-annotations-panel/)).
+There is a plugin that stores the annotations in InfluxDB. However, the question is how mature this [plugin](https://grafana.com/grafana/plugins/novalabs-annotations-panel/) really is.
 
 #### Conclusion
 Grafana is an excellent tool to visualize time series. 
