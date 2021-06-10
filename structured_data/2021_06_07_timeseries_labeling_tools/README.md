@@ -194,7 +194,7 @@ Github repo: [https://github.com/geocene/trainset](https://github.com/geocene/tr
 
 On the official page, you can quickly give it a spin with some sample data.
 
-In the tool, two different time series (a reference series and a labeling series).
+The UI shows 2 different time series (a reference series and a labeling series).
 Browsing through the time series is easy and intuitive.
 However, only a single label can be annotated to a certain point (window).
 
