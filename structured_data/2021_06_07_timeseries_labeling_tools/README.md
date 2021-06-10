@@ -78,7 +78,7 @@ Some other tips:
 
 
 #### Export
-Data can be exported in different ways, JSON making most sense. There is also an API, which allows to automate the export process + parsing + dumping towards e.g. GCP.
+Data and labels can be exported in different ways, JSON making most sense. There is also an API, which allows to automate the export process + parsing + dumping towards e.g. GCP.
 
 [https://labelstud.io/templates/time_series.html#Output-format-example](https://labelstud.io/templates/time_series.html#Output-format-example)
 
@@ -87,7 +87,7 @@ Online sandbox to play around.
 [https://labelstud.io/playground/](https://labelstud.io/playground/)
 
 #### Conclusion
-In general the interface with users and tasks makes it really interesting to work with. It's rather easy to organise the labeling effort when there's multiple users involved.
+In general the interface with users and tasks makes it really interesting to work with. It's rather easy to organize the labeling effort when there's multiple users involved.
 The tool also has a some flexibility regarding backend data storage as well as for importing data from different sources.
 
 [https://labelstud.io/](https://labelstud.io/)
@@ -155,7 +155,7 @@ Interesting tool, but for labeling only to be used for specific use cases.
 | GCP connector | -                        |
 
 #### Tool
-Universal Data tool is a labeling tool developed for pictures and videos labeling.
+Universal Data Tool is a labeling tool developed to label pictures and videos.
 Time series have recently been added to the Universal Data Tool, and feels at the time of writing less mature.
 
 #### Data
@@ -274,6 +274,6 @@ There are two parts: hastic server and a hastic grafana app.
 
 So in a sense, this is also a labeling tool, albeit an automated one.
 
-As it plugs in into Grafana a lot of different data sources can be used, e.g. Influxdb, Mysql, Graphite,...
+As it plugs in into Grafana a lot of different data sources can be used, e.g. InfluxDB, Mysql, Graphite,...
 
 The tool was not tested, so unsure how good the pattern recognition is. 
