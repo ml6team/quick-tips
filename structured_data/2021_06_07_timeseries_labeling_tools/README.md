@@ -66,7 +66,7 @@ The tool can use different data sources. For an overview check: [https://labelst
 As an example, Label Studio can directly connect to a GCP (storage bucket): [https://labelstud.io/guide/storage.html#Google-Cloud-Storage](https://labelstud.io/guide/storage.html#Google-Cloud-Storage).
 Out of the box, this did not seem to work outside of the VPC. This is probably due to incorrect roles/permissions.
 
-Data can be imported using the GUI or using an API.
+Data can also be imported via a GUI or [using the API](https://labelstud.io/guide/tasks.html#Import-data-using-the-API).
 Files up to 200Mb are supposed to work, although it started failing above 50Mb using the GUI.
 Files that are bigger suffer from a *validation error*.
 
