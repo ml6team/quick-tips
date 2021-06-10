@@ -59,7 +59,7 @@ This allows for a very flexible import system.
 More info on these data templates: [https://labelstud.io/templates/time_series.html](https://labelstud.io/templates/time_series.html)
 
 The data needs to be formatted in wide format, which for certain cases might lead to sparse datasets.
-On top of that, Label Studio seems to set missing values (~ sparse data) to 0, complicating importing data from a single source, for data that was not taken at the same time.
+On top of that, Label Studio seems to set missing values to 0. This complicates the import when the values in different columns are sampled at different frequencies.
 To avoid this, multiple different files can be used.
 
 The tool can use different data sources. For an overview check: [https://labelstud.io/guide/storedata.html](https://labelstud.io/guide/storedata.html).
