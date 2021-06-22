@@ -21,3 +21,7 @@ In this tip we look at `pke`, an alternative to Gensim for keyword extraction.
 -  [_Explainable transformers using SHAP_ (22/04/2021)](2021_04_22_shap_for_huggingface_transformers):
 BERT, explain yourself! 📖
 Up until recently language model predictions have lacked transparency. In this tip we look at `SHAP`, a way to explain your latest transformer based models.
+
+-  [_Data augmentation techniques (18/06/2021)](2021_06_18_data_augmentation):
+Ever struggled with having a limited non-English NLP dataset for a project? Fear not, data augmentation to the rescue ⛑
+In this week's tip, we look at backtranslation 🔀 and contextual word embedding insertions as a data augmentation techniques for multilingual NLP. 
