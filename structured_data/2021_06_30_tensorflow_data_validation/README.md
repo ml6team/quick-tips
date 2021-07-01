@@ -7,7 +7,7 @@ detect discrepancies between datasets. Its functionality includes:
 * Detecting when different datasets diverge too much
 
 This chapter tip goes into the standalone version of TFDV.
-In the accompanying chapter talk (link to video), we go deeper into
+In the accompanying chapter talk, we go deeper into
 data drift & skew, and how the different divergence metrics are defined.
 
 TFDV can also be used as part of TFX (more info here: https://www.tensorflow.org/tfx/guide#data_exploration_visualization_and_cleaning).
