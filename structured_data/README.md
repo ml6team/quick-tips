@@ -10,3 +10,6 @@ This notebook contains the famous [titanic problem](https://www.kaggle.com/c/tit
 This notebook provides looks into how MINIROCKET — a novel feature extraction for time series classification — compares to feature extraction using tsfresh and Fourier transformation in terms of speed, performance, and explainabillity.
 - [_Time Series: Labeling tools_ (07/06/2021)](2021_06_07_timeseries_labeling_tools):
 This document contains an overview of the currently available labeling tools for time series. What tools are the ones to be used, which ones you probably better avoid.
+- [_Tabular Data: Tensorflow Data Validation_ (30/06/2021)](2021_06_30_tensorflow_data_validation):
+This notebook showcases the functionality of TensorFlow Data Validation (TFDV), a tool developed by tensorflow
+to track anomalous changes in your data.
