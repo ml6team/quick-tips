@@ -1,7 +1,7 @@
 # Transformer-based Data Augmentation
 
 Ever struggled with having a limited non-English NLP dataset for a project? 🤯 Fear not, data augmentation to the rescue ⛑️
-In this week's tip, we look at backtranslation 🔀 and contextual word embedding insertions as data augmentation techniques for multilingual NLP. We'll be using the MariaMT and distilled BERT pre-trained models, available on huggingface. 
+In this week's tip, we look at backtranslation 🔀 and contextual word embedding insertions as data augmentation techniques for multilingual NLP. We'll be using the MarianMT and distilled BERT pre-trained models, available on huggingface. 
 
 The training size will impact the performace of a model heavily, this notebook looks into the possibilities of performing data augmentation on an NLP dataset. Data augmentation techniques are used to generate additional samples. Data augmentation is already standard practice in computer vision projects 👌, but can also be leveraged in multilingual NLP problems. 
 
