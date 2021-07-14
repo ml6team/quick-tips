@@ -4,7 +4,7 @@ In recent research there has been an extensive study for improving the calculati
 
 The attention calculation is known to be quadratic in compatation time with respect to the sequence length 👎. These recent advances, however, are able to perform attention calculation in linear time with respect to the sequence length. This allows us to scale the transformer architecture such that it can handle input sequences beyond the usual 512 token length.
 
-In this notebook we compare traditional transfomers with novel efficient transformers. We'll use roBERTa as a baseline to compare against LongFormer and BigBird.
+In this notebook, we compare traditional transformers with novel efficient transformers. We'll use roBERTa as a baseline to compare against LongFormer and BigBird.
 
 Let's put these architectures to the test and see which one comes out on top 🏆!
 
