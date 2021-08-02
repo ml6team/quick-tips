@@ -4,4 +4,4 @@ During coding, making sure that you have a logging system in place is very impor
 
 ---
 
-In the notebook included in this folder you will find multiple tips and tricks that will level up your logging game! Make sure to run every codeblock once
+In the notebook included in this folder you will not only find general information about the logging module, but also multiple tips and tricks that will level up your logging game! Make sure to run every codeblock only once, as reruns might break some things with the logging components.
