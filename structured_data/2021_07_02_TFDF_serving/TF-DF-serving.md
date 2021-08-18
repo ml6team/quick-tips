@@ -4,7 +4,7 @@
 
 TensorFlow and TensorFlow Extended are a broad ecosystem of software packages, allowing to train, serve,... ML models.
 
-The addition of decision forests to TensorFlow (blogpost)[https://www.tensorflow.org/decision_forests], increases the applicability of TensorFlow on many more use cases.
+The [addition of decision forests to TensorFlow](https://www.tensorflow.org/decision_forests) increases the applicability of TensorFlow on many more use cases.
 
 Training is only one part of ML models: robust inference calculations are as important in a data pipeline.
 This is where TensorFlow Serving comes in. TensorFlow Serving basically creates an API around a model. On top of that it allows to split code and model, enabling separate versioning.
