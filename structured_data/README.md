@@ -13,3 +13,5 @@ This document contains an overview of the currently available labeling tools for
 - [_Tabular Data: Tensorflow Data Validation_ (30/06/2021)](2021_06_30_tensorflow_data_validation):
 This notebook showcases the functionality of TensorFlow Data Validation (TFDV), a tool developed by tensorflow
 to track anomalous changes in your data.
+- [_Tabular Data: Serving decision forests with Tensorflow Serving_ (02/07/2021)](2021_07_02_TFDF_serving):
+  This Readme documents the use of our custom TF Serving docker image built to serve Tensorflow Decision Forests.
