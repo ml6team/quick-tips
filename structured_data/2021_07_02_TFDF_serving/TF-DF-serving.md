@@ -11,7 +11,7 @@ This is where TensorFlow Serving comes in. TensorFlow Serving basically creates 
 
 Unfortunately, when TensorFlow Decision Forests (TF-DF) was released, TensorFlow Serving was not ready to serve these new models.
 
-As we found TF-DF models to be very interesting, we, at ML6, decided to build a custom docker image to serve these models.
+We decided to build a custom `tf-serving` docker image to serve these models.
 
 The docker image can be found at (https://hub.docker.com/r/ml6team/tf-serving-tfdf)[https://hub.docker.com/r/ml6team/tf-serving-tfdf].
 
