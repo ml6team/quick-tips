@@ -9,7 +9,7 @@ The addition of decision forests to TensorFlow (blogpost)[https://www.tensorflow
 Training is only one part of ML models: robust inference calculations are as important in a data pipeline.
 This is where TensorFlow Serving comes in. TensorFlow Serving basically creates an API around a model. On top of that it allows to split code and model, enabling separate versioning.
 
-Unfortunately, when TensorFlow Decision Forests (TF-DF) was released, TensorFlow Serving was not ready to except these new models.
+Unfortunately, when TensorFlow Decision Forests (TF-DF) was released, TensorFlow Serving was not ready to serve these new models.
 
 As we found TF-DF models to be very interesting, we, at ML6, decided to build a custom docker image to serve these models.
 
