@@ -14,6 +14,7 @@ Unfortunately, when TensorFlow Decision Forests (TF-DF) was released, TensorFlow
 We decided to build a custom `tf-serving` docker image to serve these models.
 
 The docker image can be found on [DockerHub](https://hub.docker.com/r/ml6team/tf-serving-tfdf).
+The model used in the following example was trained using the [TF-DF pinguins colab](https://colab.research.google.com/github/tensorflow/decision-forests/blob/main/documentation/tutorials/beginner_colab.ipynb).
 
 To use the docker image for a penguin model, the following code can be used:
 
