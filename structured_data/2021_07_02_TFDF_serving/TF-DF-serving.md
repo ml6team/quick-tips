@@ -13,7 +13,7 @@ Unfortunately, when TensorFlow Decision Forests (TF-DF) was released, TensorFlow
 
 We decided to build a custom `tf-serving` docker image to serve these models.
 
-The docker image can be found at (https://hub.docker.com/r/ml6team/tf-serving-tfdf)[https://hub.docker.com/r/ml6team/tf-serving-tfdf].
+The docker image can be found on [DockerHub](https://hub.docker.com/r/ml6team/tf-serving-tfdf).
 
 To use the docker image for a penguin model, the following code can be used:
 
