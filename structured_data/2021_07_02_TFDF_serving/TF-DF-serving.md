@@ -1,6 +1,6 @@
 # Serving TF-DF models using TF Serving
 
-*This is a small excerpt from the  https://blog.ml6.eu/serving-decision-forests-with-tensorflow-b447ea4fc81c blogpost*
+*This is a small excerpt from our [blogpost on decision forests](https://blog.ml6.eu/serving-decision-forests-with-tensorflow-b447ea4fc81c)*
 
 TensorFlow and TensorFlow Extended are a broad ecosystem of software packages, allowing to train, serve,... ML models.
 
