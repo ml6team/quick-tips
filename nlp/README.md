@@ -29,3 +29,6 @@ In this week's tip, we look at backtranslation 🔀 and contextual word embeddin
 -  [_Neural Keyword Extraction_ (07/07/2021)](2021_07_07_neural_keyword_extraction):
 Neural Keyword Extraction
 In this week's tip, we look at neural keyword extraction methods and how they compare to classical methods.
+
+-  [_Long range transformers_ (14/07/2021)](2021_06_29_long_range_transformers):
+Beyond and above the 512! 🏅 In this week's tip, we look at novel long range transformer architectures and compare them against the well-known RoBERTa model.
