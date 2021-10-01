@@ -1,6 +1,6 @@
 # ML6 Structured Data Quick Tips
 
-Current content:
+Current content (in order of publication):
 
 - [_Time Series: Getting Started_ (08/02/2021)](2021_02_08_timeseries_getting_started):
 This notebook contains some sample code to turn your tabular dataset into a time series dataset and run an exploratory analysis.
@@ -15,3 +15,5 @@ This notebook showcases the functionality of TensorFlow Data Validation (TFDV), 
 to track anomalous changes in your data.
 - [_Tabular Data: Serving decision forests with Tensorflow Serving_ (02/07/2021)](2021_07_02_TFDF_serving):
   This Readme documents the use of our custom TF Serving docker image built to serve Tensorflow Decision Forests.
+- [_Tabular Data: 5 Tips to start working with imbalanced datasets_ (01/10/2021)](2021_10_01_imbalanced_datasets):
+  Some pointers to keep in mind when you encounter (heavily) imbalanced ML problems.
