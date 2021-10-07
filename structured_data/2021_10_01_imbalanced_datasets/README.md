@@ -14,12 +14,12 @@
 
 There are 2 stragies to consider:
 
-| Strategy                                                             | Method             |                                                                                                                |
-| -------------------------------------------------------------------- | ------------------ | -------------------------------------------------------------------------------------------------------------- |
-| Prototype selection (select samples from the original dataset)       | *Random*           | Randomly select prototypes.                                                                                    |
-|                                                                      | *NearMiss*         | Adding heuristics in order to filter prototypes in a smarter way. (→ 3 different implementations in imblearn!) |
-|                                                                      | *Tomek's links*    | Keeping every two samples from different classes that are the nearest neighbors of each other.                 |
-| Prototype generation (generate samples based on majority class data) | *ClusterCentroids* | Selecting the centroids of K-means                                                                             |
+| Strategy                                                             | Method             |                                                                                                                          |
+| -------------------------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------ |
+| Prototype selection (select samples from the original dataset)       | *Random*           | Randomly select prototypes.                                                                                              |
+|                                                                      | *NearMiss*         | Adding heuristics in order to filter prototypes in a smarter way. (→ 3 different implementations in `imbalanced-learn`!) |
+|                                                                      | *Tomek's links*    | Keeping every two samples from different classes that are the nearest neighbors of each other.                           |
+| Prototype generation (generate samples based on majority class data) | *ClusterCentroids* | Selecting the centroids of K-means.                                                                                      |
 
 Illustration of Tomek's links:
 
@@ -49,7 +49,7 @@ The following image shows the dataset before and after resampling:
 
 This can be done in 3 different ways:
 
-* **Random sampling**: pretty straightforward.
+* **Random sampling**: duplication of already existing datapoints in a random fashion.
 
 * **SMOTE**: Generate synthetic data by interpolating between original data points. (There are many variants available; check the [documentation](https://imbalanced-learn.org/stable/over_sampling.html#smote-variants)! )
 
@@ -83,7 +83,7 @@ Pro-tip: Use [sklearn Pipelines](https://imbalanced-learn.org/stable/references/
 
 ## 5. Use built-in model functionality
 
-1. `sklearn.utils.class_weight.compute_class_weight`
+1. `sklearn.utils.class_weight.compute_class_weight`: [docs](https://scikit-learn.org/stable/modules/generated/sklearn.utils.class_weight.compute_class_weight.html)
 
     example:
 
@@ -91,7 +91,7 @@ Pro-tip: Use [sklearn Pipelines](https://imbalanced-learn.org/stable/references/
     DecisionTreeClassifier(class_weight='balanced')
     ```
 
-2. `scale_pos_weight` in XGBoost
+2. `scale_pos_weight` in XGBoost: [docs](https://xgboost.readthedocs.io/en/latest/parameter.html)
 
     Rule of thumb:
 
@@ -99,7 +99,7 @@ Pro-tip: Use [sklearn Pipelines](https://imbalanced-learn.org/stable/references/
     scale_pos_weight = sum(negative_instances)/sum(positive_instances)
     ```
 
-3. `class_weights` in Keras/TensorFlow
+3. `class_weights` in Keras/TensorFlow: [docs](https://www.tensorflow.org/tutorials/structured_data/imbalanced_data#class_weights)
 
     Rule of thumb:
 
@@ -110,7 +110,7 @@ Pro-tip: Use [sklearn Pipelines](https://imbalanced-learn.org/stable/references/
     keras_class_weights = {0: majority_class_weight, 1: minority_class_weight}
     ```
 
-4. output layer bias in `tf.keras`
+4. output layer bias in `tf.keras`: [docs](https://www.tensorflow.org/tutorials/structured_data/imbalanced_data#optional_set_the_correct_initial_bias)
 
     Rule of thumb:
 
@@ -121,10 +121,11 @@ Pro-tip: Use [sklearn Pipelines](https://imbalanced-learn.org/stable/references/
     Explanation: By setting the “correct” output bias we help the model converge faster.
     By default, the output layer bias is `log(1/1)=0` --> assumes balanced classes.
 
-5. BigQueryML
+5. BigQueryML: [docs](https://cloud.google.com/bigquery-ml/docs/reference/standard-sql/bigqueryml-syntax-create#create_model_syntax)
 
     BigQuery provides a boolean flag when initializing a model object: `AUTO_CLASS_WEIGHTS=TRUE`.
 
-## Author
+## Authors
 
 * [@FlorentijnD](https://github.com/FlorentijnD)
+* [@julienschuermans](https://github.com/julienschuermans)
