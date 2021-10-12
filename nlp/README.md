@@ -33,6 +33,6 @@ Beyond and above the 512! 🏅 In this week's tip, we look at novel long range t
 Neural Keyword Extraction 🧠
 In this week's tip, we look at neural keyword extraction methods and how they compare to classical methods.
 
--  [_Neural Keyword Extraction_ (12/10/2021)](2021_10_12_huggingface_optimum):
-HuggingFace Optimum Quantization 🧠
+-  [_HuggingFace Optimum_ (12/10/2021)](2021_10_12_huggingface_optimum):
+HuggingFace Optimum Quantization ✂️
 In this week's tip, we take a look at the new HuggingFace Optimum package to check out some model quantization techniques.
