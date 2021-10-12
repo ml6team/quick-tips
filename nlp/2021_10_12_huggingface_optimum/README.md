@@ -2,7 +2,7 @@
 
 Scaling and productionizing Transformers with millions of parameters is difficult!
 
-Addressing this, Huggingface 🤗 released a new tool called _Optimum_ ( https://huggingface.co/blog/hardware-partners-program which aims to speed up the inference time of Transformers 🏎️!
+Addressing this, Huggingface 🤗 released a new tool called _Optimum_ (https://huggingface.co/blog/hardware-partners-program) which aims to speed up the inference time of Transformers 🏎️!
 
 This notebook demonstrates some experiments on quantizing HF pre-trained models for sentiment analysis 🎭 and summarization 🤏.
 
