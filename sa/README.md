@@ -3,3 +3,4 @@
 Current content:
 
 - [Git tips](git_tips)
+- [Logging tips](logging_tips)
