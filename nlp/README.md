@@ -36,3 +36,7 @@ In this week's tip, we look at neural keyword extraction methods and how they co
 -  [_HuggingFace Optimum_ (12/10/2021)](2021_10_12_huggingface_optimum):
 HuggingFace Optimum Quantization ✂️
 In this week's tip, we take a look at the new HuggingFace Optimum package to check out some model quantization techniques.
+
+- [ _Text Augmentation using GPT-3  (25/11/2021)_](2021_11_25_gpt3mix):
+The more data we have, the better performance we can achieve 🤙. However, it is sometimes difficult to annotate a large amount of training data 😞.
+In this tip, we use GPT-3 language model to generate hyper-realistic samples from a very small dataset.
