@@ -38,5 +38,4 @@ HuggingFace Optimum Quantization ✂️
 In this week's tip, we take a look at the new HuggingFace Optimum package to check out some model quantization techniques.
 
 - [ _Text Augmentation using GPT-3  (25/11/2021)_](2021_11_25_gpt3mix):
-The more data we have, the better performance we can achieve 🤙. However, it is sometimes difficult to annotate a large amount of training data 😞.
-In this tip, we use GPT-3 language model to generate hyper-realistic samples from a very small dataset.
+Typically, the more data we have, the better performance we can achieve 🤙. However, it is sometimes difficult and/or expensive to annotate a large amount of training data 😞. In this tip, we leverage GPT-3 to generate hyper-realistic samples from a very small dataset.
