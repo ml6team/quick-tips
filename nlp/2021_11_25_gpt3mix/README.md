@@ -1,4 +1,4 @@
-# Text Augmentation using using large-scale LMs and prompt engineering
+# Text Augmentation using large-scale LMs and prompt engineering
 
 Typically, the more data we have, the better performance we can achieve 🤙. However, it is sometimes difficult and/or expensive to annotate a large amount of training data 😞. Therefore, proper data augmentation is useful to boost up the model performance.
 
