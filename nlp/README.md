@@ -38,4 +38,4 @@ HuggingFace Optimum Quantization ✂️
 In this week's tip, we take a look at the new HuggingFace Optimum package to check out some model quantization techniques.
 
 - [ _Text Augmentation using large-scale LMs and prompt engineering_ (07/12/2021)](2021_11_25_gpt3mix):
-Typically, the more data we have, the better performance we can achieve 🤙. However, it is sometimes difficult and/or expensive to annotate a large amount of training data 😞. In this tip, we leverage three large-scale LMs (GPT-3, GPT-J and GPT-Neo) to generate hyper-realistic samples from a very small dataset.
+Typically, the more data we have, the better performance we can achieve 🤙. However, it is sometimes difficult and/or expensive to annotate a large amount of training data 😞. In this tip, we leverage three large-scale LMs (GPT-3, GPT-J and GPT-Neo) to generate very realistic samples from a very small dataset.
