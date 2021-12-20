@@ -10,4 +10,4 @@ Let's put these architectures to the test and see which one comes out on top ğŸ
 
 We recommend to open the notebook using Colab, to check how you can finetune novel efficient transformers ğŸ‘‡:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ml6team/quick-tips/blob/main/nlp/2021_06_29_long_range_transformers/LongRangeTransformers.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ml6team/quick-tips/blob/main/nlp/long_range_transformers/LongRangeTransformers.ipynb)

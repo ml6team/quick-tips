@@ -9,4 +9,4 @@ This notebook gives a brief overview of **pke** an **open-source keyphrase extra
 
 We recommend to open the notebook using Colab to extract keywords using `pke` yourself 👇:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ml6team/quick-tips/blob/main/nlp/2021_03_18_pke_keyword_extraction/pke_keyword_extraction.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ml6team/quick-tips/blob/main/nlp/pke_keyword_extraction/pke_keyword_extraction.ipynb)

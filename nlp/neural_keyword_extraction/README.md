@@ -8,4 +8,4 @@ This is in contrast to classical keyword extraction which is often graph-based a
 
 We recommend to open the notebook using Colab for an interactive explainable experience and optimal rendering of the visuals 👇:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ml6team/quick-tips/blob/main/nlp/2021_09_10_neural_keyword_extraction/neural_keyword_extraction.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ml6team/quick-tips/blob/main/nlp/neural_keyword_extraction/neural_keyword_extraction.ipynb)
