@@ -22,4 +22,4 @@ This notebook gives you an introduction on how to use **SHAP** an open-source ex
 
 We recommend to open the notebook using Colab to for an interactive explainable experience and optimal rendering of the visuals 👇:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ml6team/quick-tips/blob/main/nlp/2021_04_22_shap_for_huggingface_transformers/explainable_transformers_using_shap.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ml6team/quick-tips/blob/main/nlp/shap_for_huggingface_transformers/explainable_transformers_using_shap.ipynb)

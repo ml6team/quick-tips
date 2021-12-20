@@ -7,4 +7,4 @@ The training size will impact the performace of a model heavily, this notebook l
 
 We recommend to open the notebook using Colab for an interactive explainable experience and optimal rendering of the visuals 👇:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ml6team/quick-tips/blob/main/nlp/2021_06_18_data_augmentation/totw_nlp_dat_aug.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ml6team/quick-tips/blob/main/nlp/data_augmentation/totw_nlp_dat_aug.ipynb)
