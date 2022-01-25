@@ -18,7 +18,12 @@ Should become:
 She is working as a waitress tonight, before going out to party with her brothers.
 ```
 
+Spoiler alert: using two measuring techniques we tried out, CDA does indeed seem to reduce the bias in the embeddings that result from a certain dataset 🥳:
+![Before and after, measuring cosine similarity](images/cda_cosine_similarity.png?raw=true)
+![Before and after, measuring gender vector](images/cda_gender_vector.png?raw=true "Title")
+
 
 We recommend to open the notebook using Colab for an interactive explainable experience and optimal rendering of the visuals 👇:
+
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ml6team/quick-tips/blob/main/nlp/gender_debaising_cda/gender_debaising_cda.ipynb)
