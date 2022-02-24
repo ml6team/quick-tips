@@ -1,4 +1,4 @@
-# Gender debiasing of documents using simple CDA.
+# Gender debiasing of documents using simple CDA
 
 ## The idea
 
@@ -35,6 +35,3 @@ We recommend to open the notebook using Colab for an interactive explainable exp
 Spoiler alert: using two measuring techniques we tried out, CDA does indeed seem to reduce the bias in the embeddings that result from a certain dataset 🥳:
 ![Before and after, measuring cosine similarity](images/cda_cosine_similarity.png?raw=true)
 ![Before and after, measuring gender vector](images/cda_gender_vector.png?raw=true)
-
-
-
