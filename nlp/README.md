@@ -41,4 +41,4 @@ In this week's tip, we take a look at the new HuggingFace Optimum package to che
 Typically, the more data we have, the better performance we can achieve 🤙. However, it is sometimes difficult and/or expensive to annotate a large amount of training data 😞. In this tip, we leverage three large-scale LMs (GPT-3, GPT-J and GPT-Neo) to generate very realistic samples from a very small dataset.
 
 - [ _Gender debaising of datasets using CDA_ (25/01/2021)](gender_debiasing_cda):
-A lot of large language models are trained on webtext. However, this means that unintended biases can sneak into your model behaviour 😞. In this tip, we'll look at how to try and alleviate this bias using CounterFactual Data Augmentation ⚖️.
+A lot of large language models are trained on webtext. However, this means that unintended biases can sneak into your model behaviour 😞. In this tip, we'll look at how to try and alleviate this bias using Counterfactual Data Augmentation ⚖️.
