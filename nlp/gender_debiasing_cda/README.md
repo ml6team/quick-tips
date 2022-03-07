@@ -26,7 +26,7 @@ She is working as a waitress tonight, before going out to party with her brother
 We recommend to open the notebook using Colab for an interactive explainable experience and optimal rendering of the visuals 👇:
 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ml6team/quick-tips/blob/main/nlp/gender_debaising_cda/gender_debaising_cda.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ml6team/quick-tips/blob/main/nlp/gender_debiasing_cda/gender_debiasing_cda.ipynb)
 
 
 
