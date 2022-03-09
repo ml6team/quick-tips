@@ -1,3 +1,24 @@
+# Config Variables
+variable "project" {
+  type        = string
+  description = "The GCP project name"
+}
+
+variable "region" {
+  type        = string
+  description = "The region that should be used for the storage bucket"
+}
+
+variable "support_email" {
+  type        = string
+  description = "The support email address added to the OAuth consent screen"
+}
+
+variable "allowed_members" {
+  type        = list(string)
+  description = "The members that are allowed to access the TensorBoard"
+}
+
 # Google Cloud Storage
 
 resource "google_storage_bucket" "tensorboard_logs_bucket" {
@@ -20,7 +41,7 @@ resource "google_project_service" "iap" {
 }
 
 resource "google_iap_brand" "oauth_consent_screen" {
-  support_email     = "example@mail.com"
+  support_email     = var.support_email
   application_title = "Tensorboard"
   depends_on        = [google_project_service.iap]
 }
@@ -93,7 +114,5 @@ resource "google_iap_client" "oauth_client" {
 resource "google_iap_web_iam_binding" "allowed_users" {
   project = var.project
   role    = "roles/iap.httpsResourceAccessor"
-  members = [
-    "domain:your-domain.com",
-  ]
+  members = var.allowed_users
 }
