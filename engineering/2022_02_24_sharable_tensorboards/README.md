@@ -14,12 +14,14 @@ Other solutions require other people to set up a local environment to run Tensor
 
 You can use the Terraform code in the `tensorboard.tf` file to generate your own securely sharable TensorBoard for a fraction of the price. 
 
-Some minor changes have to be made to the file: 
+You only need to run the classic `terraform apply` and everything will be set up for you.
+There are some variables you have to supply:
 
-- change the support email for the `oauth_consent_screen`
-- add the allowed users in the `allowed_users` resource
+- project: The GCP project name
+- region: The region that should be used for the storage bucket
+- support_email: The support email address added to the OAuth consent screen
+- allowed_members: The members that are allowed to access the TensorBoard
 
-You only need to run the classic `terraform apply` and everything will be set up for you. (Don't forget to pass the project name as a parameter)
 
 That's it! 🎉 
 
