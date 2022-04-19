@@ -40,5 +40,8 @@ In this week's tip, we take a look at the new HuggingFace Optimum package to che
 - [ _Text Augmentation using large-scale LMs and prompt engineering_ (25/11/2021)](2021_11_25_augmentation_lm):
 Typically, the more data we have, the better performance we can achieve 🤙. However, it is sometimes difficult and/or expensive to annotate a large amount of training data 😞. In this tip, we leverage three large-scale LMs (GPT-3, GPT-J and GPT-Neo) to generate very realistic samples from a very small dataset.
 
-- [ _Gender debaising of datasets using CDA_ (25/01/2021)](gender_debiasing_cda):
+- [ _Gender debaising of datasets using CDA_ (25/01/2022)](gender_debiasing_cda):
 A lot of large language models are trained on webtext. However, this means that unintended biases can sneak into your model behaviour 😞. In this tip, we'll look at how to try and alleviate this bias using Counterfactual Data Augmentation ⚖️.
+
+- [ _GPT2 Quantization using ONNXRuntime_ (19/04/2022)](gpt2_quantization):
+Large language models are costly to run, in this notebook we leverage the ONNXRuntime package to quantize and run our Dutch GPT2 model in a more efficient way 💰.
