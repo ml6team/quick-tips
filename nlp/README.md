@@ -43,5 +43,5 @@ Typically, the more data we have, the better performance we can achieve 🤙. Ho
 - [ _Gender debaising of datasets using CDA_ (25/01/2022)](gender_debiasing_cda):
 A lot of large language models are trained on webtext. However, this means that unintended biases can sneak into your model behaviour 😞. In this tip, we'll look at how to try and alleviate this bias using Counterfactual Data Augmentation ⚖️.
 
-- [ _GPT2 Quantization using ONNXRuntime_ (19/04/2022)](gpt2_quantization):
+- [ _GPT2 Quantization using ONNXRuntime_ (19/04/2022)](gpt2_quantization_onnxruntime):
 Large language models are costly to run, in this notebook we leverage ONNXRuntime to quantize and run our Dutch GPT2 model in a more efficient way 💰.
