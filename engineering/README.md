@@ -8,3 +8,6 @@ Gives an overview on how you can deploy a model to Vertex AI Predictions with th
 
 - [Sharable TensorBoard](2022_02_24_sharable_tensorboards):
 Explains how you can deploy your own securely sharable TensorBoard to eliminate the need for expensive Vertex AI TensorBoards.
+
+- [Preemptible Machines](2022_05_25_preemptible_machines):
+Contains Tensorflow and Pytorch boilerplate to automatically store training checkpoints on Google Cloud Storage and load them locally.
