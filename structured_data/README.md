@@ -17,3 +17,5 @@ to track anomalous changes in your data.
   This Readme documents the use of our custom TF Serving docker image built to serve Tensorflow Decision Forests.
 - [_Tabular Data: 5 Tips to start working with imbalanced datasets_ (01/10/2021)](2021_10_01_imbalanced_datasets):
   Some pointers to keep in mind when you encounter (heavily) imbalanced ML problems.
+- [_Tabular Data: Integrating physical knowledge into your neural networks](2022_09_08_physics_informed_neural_networks):
+  How physical knowledge can be integrated into a neural network in order to solve your physical problem with machine learning.
